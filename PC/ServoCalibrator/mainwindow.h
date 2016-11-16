@@ -29,6 +29,20 @@ private slots:
 
     void on_spinBox_editingFinished();
 
+
+    void on_sldrX_sliderMoved(int position);
+
+    void on_sldrY_sliderMoved(int position);
+
+    void on_sldrZ_sliderMoved(int position);
+
+    void on_pushButton_clicked();
+
+    void on_serial_rcv();
+
+    void set_leg(int i);
+    void set_legs();
+
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;

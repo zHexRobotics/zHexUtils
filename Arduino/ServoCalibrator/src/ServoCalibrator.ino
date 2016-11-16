@@ -20,6 +20,6 @@ void loop() {
         if (pos >= 500)
         {
             myservo.writeMicroseconds(pos);
-        }
+        } 
     }
 }
